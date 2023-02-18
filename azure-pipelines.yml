@@ -16,8 +16,7 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
 - task: PublishCodeCoverageResults@2
   inputs:
-    codeCoverageTool: 'Cobertura'
-    summaryFileLocation: 'coverage/cobertura-coverage.xml'
+    summaryFileLocation: 'coverage/cobertura-coverage.yml'
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
