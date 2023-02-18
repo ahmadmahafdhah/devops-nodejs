@@ -16,7 +16,7 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
 - task: PublishCodeCoverageResults@2
   inputs:
-    summaryFileLocation: 'coverage/cobertura-coverage.yml'
+    summaryFileLocation: 'https://dev.azure.com/pwcdnaae/NEOM/_build/results?buildId=1374&view=logs&j=12f1170f-54f2-53f3-20dd-22fc7dff55f9&t=2d6c4c72-58a7-539f-c145-2ca69ec02c01&l=9'
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
